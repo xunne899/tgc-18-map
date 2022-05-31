@@ -1,4 +1,4 @@
-function showSearchResult(result, map) {
+function showSearchResult(result, map, searchResultLayer) {
     // create markers and put on map
     let lat = result.geocodes.main.latitude;
     let lng = result.geocodes.main.longitude;
